@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(243, 140, 140);
+}
+
+.container{
+    background: rgb(235, 228, 228);
+    height: 80vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 5px grey;
+}
+#dob{
+    margin: 1rem 0;
+    padding: .5rem;
+}
+#luckyNumber{
+    margin: 1rem 0;
+    padding: .5rem;
+}
+#checkBtn{
+    width: 30%;
+    height: 10%;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    background: crimson;
+    cursor: pointer;
+}
