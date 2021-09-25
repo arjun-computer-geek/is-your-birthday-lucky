@@ -37,3 +37,12 @@ body{
     background: crimson;
     cursor: pointer;
 }
+
+/* query for mobile resposive */
+
+@media only screen and (max-width: 600px){
+    .container{
+        min-height: 80vh;
+        width: 80%;
+    }
+}
