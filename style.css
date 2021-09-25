@@ -20,11 +20,7 @@ body{
     flex-direction: column;
     box-shadow: 5px 5px 10px 5px grey;
 }
-#dob{
-    margin: 1rem 0;
-    padding: .5rem;
-}
-#luckyNumber{
+#luckyNumber ,#dob{
     margin: 1rem 0;
     padding: .5rem;
 }
@@ -36,6 +32,7 @@ body{
     color: white;
     background: crimson;
     cursor: pointer;
+    border: none;
 }
 
 /* query for mobile resposive */
@@ -44,5 +41,15 @@ body{
     .container{
         min-height: 80vh;
         width: 80%;
+    }
+    .container h1{
+        font-size: 20pt;
+    }
+    #luckyNumber ,#dob{
+        width: 100%;
+    }
+    #checkBtn{
+        width: 40%;
+        font-weight: bolder;
     }
 }
