@@ -8,4 +8,4 @@ Chacking your birthday lucky or not?
 - Create this as a website, put a privacy notice. Say that you're not storing data.
 ## Result: 
 Made with the VanilaJs.
-Let's take a [Look](https://arjun-computer-geek.github.io/is-your-birthday-lucky/)
+### Let's take a [Look](https://arjun-computer-geek.github.io/is-your-birthday-lucky/)
